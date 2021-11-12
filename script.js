@@ -94,3 +94,49 @@ btnHold.addEventListener('click', function () {
 
 // Reseting the game
 btnNew.addEventListener('click', init);
+
+ /* btnRoll.addEventListener('click', function () {
+  // Generating the random dice roll
+  if (playing) {
+    const dice = Math.trunc(Math.random() * 6) + 1;
+
+    // Display Dice
+    diceEl.classList.remove('hidden');
+    diceEl.src = `dice-${dice}.png`;
+
+    // Checking if dice is 1
+    if (dice !== 1) {
+      // Add dice to current score
+      currentScore += dice;
+      document.getElementById(`current--${activePlayer}`).textContent =
+        currentScore;
+    } else {
+      // Switch to next player
+      document.getElementById(`current--${activePlayer}`).textContent = 0;
+      switchPlayer();
+    }
+  }
+}); */
+
+ /* btnRoll.addEventListener('click', function () {
+  // Generating the random dice roll
+  if (playing) {
+    const dice = Math.trunc(Math.random() * 6) + 1;
+
+    // Display Dice
+    diceEl.classList.remove('hidden');
+    diceEl.src = `dice-${dice}.png`;
+
+    // Checking if dice is 1
+    if (dice !== 1) {
+      // Add dice to current score
+      currentScore += dice;
+      document.getElementById(`current--${activePlayer}`).textContent =
+        currentScore;
+    } else {
+      // Switch to next player
+      document.getElementById(`current--${activePlayer}`).textContent = 0;
+      switchPlayer();
+    }
+  }
+}); */
